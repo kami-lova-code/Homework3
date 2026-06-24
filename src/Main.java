@@ -41,7 +41,7 @@ public class Main {
 
      int minutesIn3Days = minutesInDay * 3;
      long amount3Days = (long) bottlesPerMinute * minutesIn3Days;
-     System.out.println("За 3 дня машина произвела " + amount3Days + " штук бутылок. ");
+     System.out.println("за 3 дня машина произвела " + amount3Days + " штук бутылок. ");
 
      int minutesInMonth = minutesInDay * 30;
      long amountMonth = (long) bottlesPerMinute * minutesInMonth;
