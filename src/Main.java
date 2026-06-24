@@ -33,7 +33,7 @@ public class Main {
      int bottlesPerMinute = bottlesMade / minutesSpent;
      int minutes20 =20;
      int amount20Min = bottlesPerMinute * minutes20;
-     System.out.println("за 20 минут машина произвела " + amount20Min + " штук бутылок. ");
+     System.out.println("За 20 минут машина произвела " + amount20Min + " штук бутылок. ");
 
      int minutesInDay = 24 * 60;
      int amount1Day = bottlesPerMinute * minutesInDay;
