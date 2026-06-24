@@ -37,7 +37,7 @@ public class Main {
 
      int minutesInDay = 24 * 60;
      int amount1Day = bottlesPerMinute * minutesInDay;
-     System.out.println("за сутки машина произвела " + amount1Day + " штук бутылок. ");
+     System.out.println("За сутки машина произвела " + amount1Day + " штук бутылок. ");
 
      int minutesIn3Days = minutesInDay * 3;
      long amount3Days = (long) bottlesPerMinute * minutesIn3Days;

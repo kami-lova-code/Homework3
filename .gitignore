@@ -1,4 +1,4 @@
-.idea# IntelliJ IDEA ###
+.idea/# IntelliJ IDEA ###
 out/
 *.iml
 !**/src/main/**/out/
