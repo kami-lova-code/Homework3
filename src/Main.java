@@ -93,8 +93,8 @@ public class Main {
      int daysAtMaxSpeed = targetGrams / variantMaxGrams;
      int averageDays = (daysAtMinSpeed + daysAtMaxSpeed) / 2;
 
-     System.out.println("если спортсмен будет терять по 250 г в день,уйдёт: " + daysAtMinSpeed + " дней. " );
-     System.out.println("если спортсмен будет терять по 500 грамм в день,уйдёт: " + daysAtMaxSpeed + " дней." );
+     System.out.println("Если спортсмен будет терять по 250 г в день,уйдёт: " + daysAtMinSpeed + " дней. " );
+     System.out.println("Если спортсмен будет терять по 500 грамм в день,уйдёт: " + daysAtMaxSpeed + " дней." );
      System.out.println("В среднем для достижения результата потребуется: " + averageDays + " день " );
 
      float currentMashaSalary = 67760.0f;
@@ -108,7 +108,7 @@ public class Main {
      float newMashaSalary = currentMashaSalary + mashaSalaryIncrease;
      float newDenisSalary = currentDenisSalary + denisSalaryIncrease;
      float newCristineSalary = currentCristineSalary + cristineSalaryIncrease;
-     float mashaAnnualIncomeGroth = mashaSalaryIncrease * monthInYear;
+     float mashaAnnualIncomeGrowth = mashaSalaryIncrease * monthInYear;
      float denisAnnualIncomeGrowth = denisSalaryIncrease * monthInYear;
      float cristineAnnualIncomeGrowth = cristineSalaryIncrease * monthInYear;
 
