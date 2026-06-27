@@ -3,27 +3,44 @@
 public class Main {
     public static void main(String[] args) {
 
-     int a = -159;
-     int a1 = 27897;
-     byte b = 67;
-     short c = 569;
-     long d = 987678965549L;
-     float e = 2.786f;
-     double f = 27.12;
 
-     System.out.println("int a = " + a);
-     System.out.println("int a1 = " + a1);
-     System.out.println("byte b = " + b);
-     System.out.println("short c = " + c);
-     System.out.println("long d = " + d);
-     System.out.println("float e = " + e);
-     System.out.println("double f = " + f);
+     int myInt = 45000;
+     byte myByte = 12;
+     short myShort = -159;
+     long myLong = 9000000000L;
+     float myFloat = 3.14f;
+     double myDouble = 2.71828;
 
-     int pupilAmount1 = 23;
-     int pupilAmount2 = 27;
-     int pupilAmount3 = 30;
+
+     System.out.println("Значение переменной myInt с типом int равно " + myInt );
+     System.out.println("Значение переменной myByte с типом byte равно " + myByte );
+     System.out.println("Значение переменной myShort c типом short равно " + myShort );
+     System.out.println("Значение переменной myLong с типом long равно " + myLong );
+     System.out.println("Значение переменной myFloat с типом float равно " + myFloat );
+     System.out.println("Значение переменной myDouble типом double равно " + myDouble);
+
+     double value1 = 27.12;
+     long value2 = 987678965549L;
+     float value3 = 2.786f;
+     int value4 = 569;
+     short value5 = -159;
+     int value6 = 27897;
+     byte value7 = 67;
+
+     System.out.println(value1);
+     System.out.println(value2);
+     System.out.println(value3);
+     System.out.println(value4);
+     System.out.println(value5);
+     System.out.println(value6);
+     System.out.println(value7);
+
+
+     int lyudmilaStudents = 23;
+     int annaStudents = 27;
+     int ekaterinaStudents = 30;
      int totalPaperSheets = 480;
-     int totalPupilsAmount = (pupilAmount1 + pupilAmount2 + pupilAmount3);
+     int totalPupilsAmount = (lyudmilaStudents + annaStudents + ekaterinaStudents);
      int sheetsPerPupil =  (totalPaperSheets / totalPupilsAmount);
 
      System.out.println("На каждого ученика рассчитано " + sheetsPerPupil + " листов бумаги. ");
@@ -40,82 +57,70 @@ public class Main {
      System.out.println("За сутки машина произвела " + amount1Day + " штук бутылок. ");
 
      int minutesIn3Days = minutesInDay * 3;
-     long amount3Days = (long) bottlesPerMinute * minutesIn3Days;
+     int amount3Days = bottlesPerMinute * minutesIn3Days;
      System.out.println("За 3 дня машина произвела " + amount3Days + " штук бутылок. ");
 
      int minutesInMonth = minutesInDay * 30;
-     long amountMonth = (long) bottlesPerMinute * minutesInMonth;
+     int amountMonth = bottlesPerMinute * minutesInMonth;
      System.out.println("За 1 месяц машина произвела " + amountMonth + " штук бутылок. ");
 
      int whitePerClass = 2;
      int brownPerClass = 4;
      int totalPaintCans = 120;
      int totalPerClass = whitePerClass + brownPerClass;
-     int classAmount = totalPaintCans / totalPerClass;
-     int totalWhite = classAmount * whitePerClass;
-     int totalBrown = classAmount * brownPerClass;
+     int classNumber = totalPaintCans / totalPerClass;
+     int totalWhite = classNumber * whitePerClass;
+     int totalBrown = classNumber * brownPerClass;
 
-     System.out.println("В школе,где " + classAmount + " классов,нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
+     System.out.println("В школе,где " + classNumber + " классов,нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски.");
 
-     int banana = 5;
-     int milk = 2;
-     int icecream = 2;
-     int egg = 4;
-     int bananaWeight = 80;
-     int milkWeight = 105;
-     int icecreamWeight = 100;
-     int eggWeight = 70;
-     int totalBananaWeight = banana * bananaWeight;
-     int totalMilkWeight = milk * milkWeight;
-     int totalIcecreamWeight = icecream * icecreamWeight;
-     int totalEggWeight = egg * eggWeight;
-     int breakfastWeight1 = totalBananaWeight + totalMilkWeight + totalIcecreamWeight + totalEggWeight;
-     double breakfastWeight2 = breakfastWeight1 / 1000.0;
+     int bananasWeight = 5 * 80;
+     int milkWeight = (200 /100) * 105;
+     int iceCreamWeight = 2 * 100;
+     int eggsWeight = 4 * 70;
+     int totalWeightInGrams = bananasWeight + milkWeight + iceCreamWeight + eggsWeight;
+     float totalWeightInKg = totalWeightInGrams / 1000.0f;
 
-     System.out.println("Завтрак весит " + breakfastWeight1 + " грамм = " + breakfastWeight2 + " килограмм.");
 
-     int weightLossGoal1 = 7;
-     int weightLossGoal2 = weightLossGoal1 * 1000;
-     int weightLossGoal2PerDay1 = 250;
-     int weightLossGoal2PerDay2 = 500;
-     int dayNumber1 = weightLossGoal2 / weightLossGoal2PerDay1;
-     int dayNumber2 = weightLossGoal2 / weightLossGoal2PerDay2;
-     int totaldayNumber = dayNumber1 + dayNumber2;
-     int averageDays = totaldayNumber / 2;
+     System.out.println("Общий вес завтрака в граммах: " + totalWeightInGrams + "гр " );
+     System.out.println("Общий вес завтрака в килограммах: " + totalWeightInKg + "кг " );
 
-     System.out.println(dayNumber1 + " -если по 250. " );
-     System.out.println(dayNumber2 + " -если по 500. " );
-     System.out.println(averageDays + " -в среднем. ");
+     int targetKg = 7;
+     int targetGrams = targetKg * 1000;
+     int variantMinGrams = 250;
+     int variantMaxGrams = 500;
+     int daysAtMinSpeed = targetGrams / variantMinGrams;
+     int daysAtMaxSpeed = targetGrams / variantMaxGrams;
+     int averageDays = (daysAtMinSpeed + daysAtMaxSpeed) / 2;
 
-     double currentMashaSalary = 67760.0;
-     double currentDenisSalary = 83690.0;
-     double currentCristineSalary = 76230.0;
-     double bonusPersent = 10.0;
+     System.out.println("если спортсмен будет терять по 250 г в день,уйдёт: " + daysAtMinSpeed + " дней. " );
+     System.out.println("если спортсмен будет терять по 500 грамм в день,уйдёт: " + daysAtMaxSpeed + " дней." );
+     System.out.println("В среднем для достижения результата потребуется: " + averageDays + " день " );
+
+     float currentMashaSalary = 67760.0f;
+     float currentDenisSalary = 83690.0f;
+     float currentCristineSalary = 76230.0f;
+     float bonusPersent = 10.0f;
      int monthInYear = 12;
-     double mashaSalaryIncrease = currentMashaSalary * (bonusPersent / 100.0);
-     double denisSalaryIncrease = currentDenisSalary * (bonusPersent / 100.0);
-     double cristineSalaryIncrease = currentCristineSalary * (bonusPersent / 100.0);
-     double newMashaSalary = currentMashaSalary + mashaSalaryIncrease;
-     double newDenisSalary = currentDenisSalary + denisSalaryIncrease;
-     double newCristineSalary = currentCristineSalary + cristineSalaryIncrease;
-     double oldYearMashaIncome = currentMashaSalary * monthInYear;
-     double newYearMashaIncome = newMashaSalary * monthInYear;
-     double mashaYearIncomeDifference = newYearMashaIncome - oldYearMashaIncome;
-     double oldYearDenisIncome = currentDenisSalary * monthInYear;
-     double newYearDenisIncome = newDenisSalary * monthInYear;
-     double denisYearIncomeDifference = newYearDenisIncome - oldYearDenisIncome;
-     double oldYearCristineIncome = currentCristineSalary * monthInYear;
-     double newYearCristineIncome = newCristineSalary * monthInYear;
-     double cristineYearIncomeDifference = newYearCristineIncome - oldYearCristineIncome;
+     float mashaSalaryIncrease = currentMashaSalary * (bonusPersent / 100.0f);
+     float denisSalaryIncrease = currentDenisSalary * (bonusPersent / 100.0f);
+     float cristineSalaryIncrease = currentCristineSalary * (bonusPersent / 100.0f);
+     float newMashaSalary = currentMashaSalary + mashaSalaryIncrease;
+     float newDenisSalary = currentDenisSalary + denisSalaryIncrease;
+     float newCristineSalary = currentCristineSalary + cristineSalaryIncrease;
+     float mashaAnnualIncomeGroth = mashaSalaryIncrease * monthInYear;
+     float denisAnnualIncomeGrowth = denisSalaryIncrease * monthInYear;
+     float cristineAnnualIncomeGrowth = cristineSalaryIncrease * monthInYear;
 
-     System.out.println("Маша теперь получает " + (int)newMashaSalary + " рублей. ");
-     System.out.println("Годовой доход вырос на " + (int)mashaYearIncomeDifference + " рублей. ");
 
-     System.out.println("Денис теперь получает " + (int)newDenisSalary + " рублей. ");
-     System.out.println("Годовой доход вырос на " + (int)denisYearIncomeDifference + " рублей. ");
+     System.out.println("Маша теперь получает " + (int)newMashaSalary + " рублей. " );
+     System.out.println("Годовой доход вырос на " + (int)mashaAnnualIncomeGroth + " рублей. " );
 
-     System.out.println("Кристина теперь получает " + (int)newCristineSalary + " рублей. ");
-     System.out.println("Годовой доход вырос на " + (int)cristineYearIncomeDifference + " рублей. ");
+     System.out.println("Денис теперь получает " + (int)newDenisSalary + " рублей. " );
+     System.out.println("Годовой доход вырос на " + (int)denisAnnualIncomeGrowth + " рублей. " );
+
+     System.out.println("Кристина теперь получает " + (int)newCristineSalary + " рублей. " );
+     System.out.println("Годовой доход вырос на " + (int)cristineAnnualIncomeGrowth + " рублей. " );
 
 
 
