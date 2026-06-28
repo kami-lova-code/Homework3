@@ -108,13 +108,13 @@ public class Main {
      float newMashaSalary = currentMashaSalary + mashaSalaryIncrease;
      float newDenisSalary = currentDenisSalary + denisSalaryIncrease;
      float newCristineSalary = currentCristineSalary + cristineSalaryIncrease;
-     float mashaAnnualIncomeGroth = mashaSalaryIncrease * monthInYear;
+     float mashaAnnualIncomeGrowth = mashaSalaryIncrease * monthInYear;
      float denisAnnualIncomeGrowth = denisSalaryIncrease * monthInYear;
      float cristineAnnualIncomeGrowth = cristineSalaryIncrease * monthInYear;
 
 
      System.out.println("Маша теперь получает " + (int)newMashaSalary + " рублей. " );
-     System.out.println("Годовой доход вырос на " + (int)mashaAnnualIncomeGroth + " рублей. " );
+     System.out.println("Годовой доход вырос на " + (int)mashaAnnualIncomeGrowth + " рублей. " );
 
      System.out.println("Денис теперь получает " + (int)newDenisSalary + " рублей. " );
      System.out.println("Годовой доход вырос на " + (int)denisAnnualIncomeGrowth + " рублей. " );
