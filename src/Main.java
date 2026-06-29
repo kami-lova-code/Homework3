@@ -114,7 +114,7 @@ public class Main {
 
 
      System.out.println("Маша теперь получает " + (int)newMashaSalary + " рублей. " );
-     System.out.println("Годовой доход вырос на " + (int)mashaAnnualIncomeGroth + " рублей. " );
+     System.out.println("Годовой доход вырос на " + (int)mashaAnnualIncomeGrowth + " рублей. " );
 
      System.out.println("Денис теперь получает " + (int)newDenisSalary + " рублей. " );
      System.out.println("Годовой доход вырос на " + (int)denisAnnualIncomeGrowth + " рублей. " );
